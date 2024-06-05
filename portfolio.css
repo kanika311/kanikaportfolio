@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+h3{
+    text-align: left;
+    color: rgb(42, 191, 211);
+    margin-left: 20px;
+    font-size: 40px;
+}
+body{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+top:5%;
+background-color: rgb(219, 219, 200);
+border-radius: 1000px;
+backdrop-filter: blur(10px);
+}
+ul{
+    display:flex;
+    font-size: 30px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: rgb(237, 246, 246);
+    margin-left: 30px;
+    justify-content: center;
+  
+}
+a:hover{
+    color:aqua;
+}
+main{
+    height:100vh;
+    width:100%;
+    margin:10rem ;
+    
+}
+h1{
+    text-align: center;
+    font-size: 44px;
+    color: aqua;
+}
+h2{
+    text-align: center;
+    font-size:38px ;
+    color:aqua
+
+}
+.img{
+    align-items: center;
+    margin-left: 490px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px rgba(51,51,51,0.5);
+    border-radius: 30px;
+    height:20rem ;
+    width:15rem;
+}.img:hover{
+    
+    border:2px aqua solid;
+    
+}
+img{
+    
+    height:100%;
+    width:100%;
+    border-radius: 30px;
+}
+button{
+    margin-top:60px;
+    color:white;
+    background-color: rgb(119, 159, 203);
+    width:180px;
+    height:60px;
+    margin-left: 500px;
+    border-radius: 20px;
+
+
+}
+section{
+    height:50vh;
+    width:100%;
+    background-color: rgb(10, 6, 1);
+    margin-top:10px;
+}
+.line{
+    width:100%;
+    color:white;
+}
+#about{
+    width:100%;
+    text-align:center;
+    font-size: 25px;
+    color:azure;
+    margin-top:50px;
+}
+#about span{
+    color:aqua;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: 60px;
+}
+#contactus{
+    width:100%;
+    text-align:center;
+    font-size: 25px;
+    color:azure;
+    margin-top:50px;
+
+}
+#contactus p{
+    margin-top:30px;
+    text-align:left;
+    margin-left:40px;
+
+}
+#projectus{
+    width:100%;
+    text-align:center;
+    font-size: 25px;
+    color:azure;
+    margin-top:50px;
+
+}
+#projectus p{
+    margin-top:50px;
+    text-align:left;
+    margin-left:40px;
+    color: rgb(236, 238, 238);
+}
+#projectus span{
+    font-size: 45px;
+    color: aqua;
+    margin-bottom: 10px;
+    text-align:left;
+    margin-left:40px;
+    margin-top: 20px;
+}
