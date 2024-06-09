@@ -178,7 +178,7 @@ align-items: center;
         background-color: rgb(119, 159, 203);
         width:150px;
         height:50px;
-        margin-left: 50px;
+        margin-left: 60px;
         border-radius: 25px;
     
     
@@ -200,22 +200,26 @@ align-items: center;
         font-size: 15px;
         color:azure;
         margin-top:20px;
+        min-height:50vh;
     }
     
     #contactus{
         width:100%;
         text-align:center;
-        font-size: 15px;
+        font-size: 20px;
         color:azure;
         margin-top:20px;
+        min-height:50vh;
     
     }
     #projectus{
         width:100%;
         text-align:center;
-        font-size: 15px;
+        font-size: 20px;
         color:azure;
-        margin-top:20px;
+        margin-top:10px;
+        min-height:50vh;
+        margin-bottom: 20px;
     
     }
     ul{
